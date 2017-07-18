@@ -1,1 +1,7 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com" />
+  <project path="frameworks/base/cmds/xposed" name="abforce/xposed_app_process" remote="github" revision="master"/>
+  <remove-project name="platform/art" />
+  <project path="art" name="abforce/xposed_art_n" remote="github" revision="master"/>
+</manifest>
