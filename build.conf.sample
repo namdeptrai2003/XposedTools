@@ -15,6 +15,7 @@ user = 852109AA!
 [AospDir]
 19 = /android/aosp/440
 21 = /android/aosp/500
+25 = /android/aosp/710
 
 # SDKs to be used for compiling BusyBox
 # Needs https://github.com/rovo89/android_external_busybox
