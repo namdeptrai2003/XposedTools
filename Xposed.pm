@@ -16,7 +16,7 @@ use POSIX qw(strftime);
 use Term::ANSIColor;
 
 our $cfg;
-my $MAX_SUPPORTED_SDK = 23;
+my $MAX_SUPPORTED_SDK = 25;
 
 sub print_status($$) {
     my $text = shift;
